@@ -1,0 +1,97 @@
+#wrapper {
+    width: 540px;
+	margin-top:20px;
+    margin-left:auto;
+	margin-right:auto;
+	background: url(images/fondo_azul.png);
+}
+
+#intro {
+    padding-bottom:10px;
+	}
+
+#slider {
+    width: 540px;
+    margin: 0 auto;
+    position: relative;
+	background: url(images/rightshadow.png) repeat-y right;
+
+}
+
+.scroll {
+	overflow: hidden;
+	width: 540px;
+    margin:0 auto;
+    position: relative;
+	background:url(images/leftshadow.png) repeat-y left;
+
+}
+
+.scrollContainer {
+	position: relative;
+}
+
+.scrollContainer div.panel {
+    padding: 10px;
+    width: 274px;
+	height: 350px;
+}
+.inside {
+	padding: 10px;
+	border: 1px solid #000;
+}
+
+.inside img {
+	margin:0 auto;
+	width: 252px;
+	border:0;
+	margin:0;
+	padding:0;
+	}
+
+
+.inside h2 {
+	font-weight: normal;
+	color: #000;
+	font-size: 16px;
+	text-align:center;
+	margin:0;
+	padding-bottom:5px;
+}
+
+.inside p {
+	text-align:center;
+	font-size: 11px;
+	color: #000;
+	margin:0;
+	padding:0;
+}
+.inside a{
+	text-align:center;
+	font-size: 12px;
+	color: #039;
+	text-decoration:none;
+	margin:0;
+	padding:0;
+}
+.inside a:hover{
+	color:#F00;
+}
+
+.scrollButtons {
+    position: absolute;
+    top: 300px;
+    cursor: pointer;
+}
+
+.scrollButtons.left {
+    left:-45px;	
+}
+
+.scrollButtons.right {
+    right:-45px;
+}
+
+.hide {
+    display: none;
+}

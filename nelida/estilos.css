@@ -1,0 +1,270 @@
+/*
+Diseño y Programacion: 
+ -*-IDEALES-*- comunicación multimedia
+ www.idealesweb.com.ar
+ (+54 11) 5951-2598  
+ ideales.studio@gmail.com
+ */
+
+
+div,class{margin:0;padding: 0;border:0;float:left;}
+
+body{background:url(images/fondo_rayas2.jpg);}
+#todo{
+	width:800px;
+	height:550px;
+	margin:0 auto;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	background:url(images/debajo.png) no-repeat bottom;
+	float: none;
+	overflow:inherit;
+}
+#contenedor{
+width:800px;
+height:550px;
+}
+#barra1{
+	float:left;
+	margin:0;
+	padding:0;
+	width:150px;
+	height:550px;
+	background:url(images/fondo_barra_principal.png);
+}
+#barra{
+	width:150px;
+	height:550px;
+	background:url(images/fondo_barra.png) no-repeat bottom;
+}
+#barra_biblio{
+	width:150px;
+	height:550px;
+	background:url(images/fondo_barra2.png) no-repeat bottom;
+}
+#barra_expo{
+	width:150px;
+	height:550px;
+	background:url(images/fondo_barra3.png) no-repeat bottom;
+}
+#barra_cont{
+	width:150px;
+	height:550px;
+	background:url(images/fondo_barra4.png) no-repeat bottom;
+}
+#barra_70_80{
+	width:150px;
+	height:550px;
+	background:url(images/fondo_barra5.png) no-repeat bottom;	
+}
+#menu{
+	padding-top:15px;
+	width:150px;
+	height:120px;
+	padding-bottom:415px;
+}
+#menu ul{
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+#menu ul li{
+	width:150px;
+	height:30px;
+}
+#menu li a{
+	text-decoration:none;	
+	text-align:center;
+	line-height:30px;
+	display:block;
+	color:#CCC;
+	font-size:15px;
+}
+#menu li a:hover{
+	width:150px;
+	height:30px;
+	color:#FFF;
+	font-size:18px;
+}
+#menu a#click{
+	width:150px;
+	height:30px;
+	color:#FFF;
+	font-size:18px;
+}
+a{
+	outline:none;
+}
+#titulo{
+	width:650px;
+	height:90px;
+	margin-top:20px;
+	padding:0;
+}
+#titulo h1{
+	width:500px;
+	height:60px;
+	padding-left:90px;
+	padding-right:60px;
+	font-size:50px;
+	margin:0;
+}
+#titulo h2{
+	width:250px;
+	height:30px;
+	padding-left:370px;
+	padding-right:30px;
+	font-size:20px;
+	margin:0;
+}
+#informacion{
+	float:left;
+	width:650px;
+	height:550px;
+	padding:0;
+	margin:0;
+	background:url(images/fondo.jpg) no-repeat;
+}
+#informacion2{
+	width:650px;
+	height:440px;
+	margin:0;
+	padding:0;
+}
+
+/*comienza home*/
+#home{
+	width:610px;
+	height:400px;
+	margin:20px;
+	padding:0;
+}
+#home ol{
+	width:220px;
+	height:120px;
+	margin-left:155px;
+	margin-right:235px;
+	margin-top:140px;
+	margin-bottom:140px;
+		list-style:none;
+}
+#home ol li{
+	width:220px;
+	height:40px;
+	line-height:40px;
+}
+#home li a{
+display:block;
+text-decoration:none;
+color:#000;
+font-size:25px;
+text-align:center;
+}
+#home li a:hover{
+	font-size:30px;
+	color:#069;
+}
+
+/*bibliografia*/
+
+#informacion3{
+	width:610px;
+	height:510px;
+	margin:10px;
+	padding:10px;
+	overflow:auto;
+	background:url(images/fondo_azul.png);
+	font-size:13px;
+	color:#000;
+}
+.fotos{
+margin:20px;
+padding:0;
+border:1px #FFF solid;
+}
+/*expo*/
+#informacion3 ol{
+	padding-bottom:10px;
+}
+#informacion3 ol li{
+	list-style-type: disc;
+	line-height:20px;
+}
+#informacion3 p{
+	padding:10px;
+	margin:0;
+	line-height:22px;
+}
+#informacion3 h4{
+	margin:0;
+	padding:0;
+	text-align:center;
+	font-size:18px;
+	color: #036;
+	text-decoration: underline;
+}
+#stron{
+	font-size:18px;
+}
+
+#informacion h3{
+	font-size:18px;
+	color:#036;
+	text-decoration: underline;
+	text-align:center;
+	padding-top:20px;
+}
+#informacion3 fieldset{
+	border:0;
+	width:420px;
+	height:400px;
+	background:url(images/base_cont.png) no-repeat bottom;
+}
+#informacion3 form{
+	width:420px;
+	height:360px;
+	margin:0 auto;
+	text-align:center;
+	background:url(images/fondo_cont.png) no-repeat;
+	padding-top:10px;
+}
+#abajo{
+	font-size:14px;
+	text-align:center;
+	width:40px;
+	height:13px;
+	margin:0px auto 0px auto;
+	text-decoration:none;
+	color:#B40404;
+	position:absolute;
+	top:90%;
+	left:50%;
+}
+
+#informacion3 form input, textarea{
+	border:1px #000 solid;
+}
+#informacion3 form textarea{
+color: #C00;
+}
+#informacion3 h3{
+	font-size:30px;
+	margin-top:10px;
+	margin-left:0;
+	margin-bottom:0;
+	margin-right:0;
+	padding:0;
+}
+
+.sub a{
+	width:100px;
+	height:30px;
+	text-decoration:none;
+	color: #900;
+	font-size:14px;
+	float:left;
+	margin:10px;
+
+}
+.sub a:hover{
+	font-size:16px;
+}
